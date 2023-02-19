@@ -48,9 +48,9 @@
         android:id="@+id/check1Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
-        android:layout_marginTop="25dp"
-        android:text="Check"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="17dp"
+        android:text="check"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dogname1" />
 

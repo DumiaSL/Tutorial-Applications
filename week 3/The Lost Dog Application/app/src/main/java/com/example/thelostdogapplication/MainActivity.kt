@@ -17,6 +17,12 @@ class MainActivity : AppCompatActivity() {
         val all_correct_rounds=0
         val all_Incorrect_rounds=0
         val main_button : Button = findViewById(R.id.continue_button)
+        val dev_button : Button = findViewById(R.id.dev)
+
+        dev_button.setOnClickListener{
+            val intent = Intent(this, DeveloperProfile::class.java)
+            startActivity(intent)
+        }
 
         main_button.setOnClickListener {
             val rannum=(0 until dogs.size).random()

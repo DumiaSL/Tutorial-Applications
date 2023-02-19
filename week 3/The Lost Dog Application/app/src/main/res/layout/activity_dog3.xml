@@ -48,7 +48,7 @@
         android:id="@+id/check1Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="152dp"
+        android:layout_marginStart="144dp"
         android:layout_marginTop="16dp"
         android:text="Check"
         app:layout_constraintStart_toStartOf="parent"
